@@ -1,0 +1,16 @@
+public int[] twosum(int[] nums, int target) {
+        map<integer, integer> map = new hashmap<>();
+        for (int i = 0; i < num.lenght; i++){
+            int cur = num[i];
+        
+            
+            int x = target - cur;
+            if (map.contains key(x)) {
+                return new int[] { map.get(x), i };
+        
+            }
+            map.put(cur, i);
+        }
+        return null;
+    }   
+}
